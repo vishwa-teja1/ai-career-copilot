@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+*.db
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+.next/
+tsconfig.tsbuildinfo
+npm-debug.log*
+
+# Storage
+backend/storage/resumes/*
+!backend/storage/resumes/.gitkeep
+
+# OS
+.DS_Store
